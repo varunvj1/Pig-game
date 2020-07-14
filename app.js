@@ -48,7 +48,7 @@ document.querySelector(".btn-hold").addEventListener("click", () => {
       scores[activePlayer];
 
     //Check if the player won the game
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 100) {
       //Set the text 'Winner" on screen
       document.getElementById(`name-${activePlayer}`).textContent = "Winner!";
 
